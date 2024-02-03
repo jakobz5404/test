@@ -24,16 +24,19 @@ def save_data(var_name, obj):
     with open(target, 'w') as file:
         file.write(f'{json.dumps(obj, indent=2)}')
 
+
 def fold_line(line, limit=75):
     # Split the line into parts based on the limit
-    parts = [line[i:i+limit] for i in range(0, len(line), limit)]
+    parts = [line[i:i + limit] for i in range(0, len(line), limit)]
     # Rejoin parts with CRLF followed by a whitespace to fold
     return "\r\n ".join(parts)
 
-def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json')):
+
+def json_to_ics(tzid, time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json')):
     with open(json_path, 'r') as json_file:
         data = json.load(json_file)
-    ics_str = "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//github.com/jakobz5404/Gradescope-iCal-Integration//EN\r\nCALSCALE:GREGORIAN\r\n"
+    ics_str = "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//github.com/jakobz5404/Gradescope-iCal-Integration//EN\r" \
+              "\nCALSCALE:GREGORIAN\r\n "
     ics_str += "X-WR-CALNAME:Gradescope Assignments\r\n"
     uid = 1
     for course, course_assignments in data.items():
@@ -47,8 +50,8 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                         datetime.strptime(assignment['dueDate']) + timedelta(minutes=int(time_offset * 60)))
                 event_details = (f"BEGIN:VEVENT\r\n"
                                  f"SUMMARY:{fold_line(assignment['title'])}\r\n"
-                                 f"DTSTAMP;TZID=EDT:{datetime.now().strftime('%Y%m%dT%H%M%S')}\r\n"
-                                 f"DTSTART;TZID=EDT:{time}\r\n"
+                                 f"DTSTAMP;TZID={tzid}:{datetime.now().strftime('%Y%m%dT%H%M%S')}\r\n"
+                                 f"DTSTART;TZID={tzid}:{time}\r\n"
                                  f"LOCATION:{fold_line(assignment['course'])}\r\n"
                                  f"URL:{fold_line(assignment['link'])}\r\n"
                                  f"UID:{uid}\r\n"
@@ -63,8 +66,8 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                             datetime.strptime(assignment['lateDueDate']) + timedelta(minutes=int(time_offset * 60)))
                     event_details = (f"BEGIN:VEVENT\r\n"
                                      f"SUMMARY:{fold_line('Late Due Date: ' + assignment['title'])}\r\n"
-                                     f"DTSTAMP;TZID=EDT:{datetime.now().strftime('%Y%m%dT%H%M%S')}\r\n"
-                                     f"DTSTART;TZID=EDT:{time}\r\n"
+                                     f"DTSTAMP;TZID={tzid}:{datetime.now().strftime('%Y%m%dT%H%M%S')}\r\n"
+                                     f"DTSTART;TZID={tzid}:{time}\r\n"
                                      f"LOCATION:{fold_line(assignment['course'])}\r\n"
                                      f"URL:{fold_line(assignment['link'])}\r\n"
                                      f"UID:{uid}\r\n"
