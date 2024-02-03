@@ -54,7 +54,7 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                                  f"DTSTAMP:{datetime.now().strftime('%Y%m%dT%H%M%SZ')}\r\n"
                                  f"DTSTART:{time}\r\n"
                                  f"LOCATION:{fold_line(assignment['course'])}\r\n"
-                                 f"URL:{fold_line(assignment['link'])}\r\n"
+                                 f"DESCRIPTION:{fold_line(assignment['link'])}\r\n"
                                  f"UID:{uid}\r\n"
                                  f"END:VEVENT\r\n")
                 ics_str += event_details
@@ -71,7 +71,7 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                                      f"DTSTAMP:{datetime.now().strftime('%Y%m%dT%H%M%SZ')}\r\n"
                                      f"DTSTART:{time}\r\n"
                                      f"LOCATION:{fold_line(assignment['course'])}\r\n"
-                                     f"URL:{fold_line(assignment['link'])}\r\n"
+                                     f"DESCRIPTION:{fold_line(assignment['link'])}\r\n"
                                      f"UID:{uid}\r\n"
                                      f"END:VEVENT\r\n")
                     ics_str += event_details
