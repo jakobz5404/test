@@ -10,8 +10,8 @@ def get_assignment_dict(title, course, due_date, link, submitted, late_due_date=
     return {
         'title': title,
         'course': course,
-        'dueDate': dateparser.parse(due_date).strftime('%Y%m%dT%H%M%SZ'),  # sets to pseudo utc time
-        'lateDueDate': dateparser.parse(late_due_date[14:]).strftime('%Y%m%dT%H%M%SZ') if late_due_date else None,
+        'dueDate': dateparser.parse(due_date).strftime('%Y%m%dT%H%M%S'),  # sets to pseudo utc time
+        'lateDueDate': dateparser.parse(late_due_date[14:]).strftime('%Y%m%dT%H%M%S') if late_due_date else None,
         'link': link,
         'submitted': submitted
     }
@@ -47,8 +47,8 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                         datetime.strptime(assignment['dueDate']) + timedelta(minutes=int(time_offset * 60)))
                 event_details = (f"BEGIN:VEVENT\r\n"
                                  f"SUMMARY:{fold_line(assignment['title'])}\r\n"
-                                 f"DTSTAMP:{datetime.now().strftime('%Y%m%dT%H%M%SZ')}\r\n"
-                                 f"DTSTART:{time}\r\n"
+                                 f"DTSTAMP;TZID=EDT:{datetime.now().strftime('%Y%m%dT%H%M%S')}\r\n"
+                                 f"DTSTART;TZID=EDT:{time}\r\n"
                                  f"LOCATION:{fold_line(assignment['course'])}\r\n"
                                  f"URL:{fold_line(assignment['link'])}\r\n"
                                  f"UID:{uid}\r\n"
@@ -63,8 +63,8 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                             datetime.strptime(assignment['lateDueDate']) + timedelta(minutes=int(time_offset * 60)))
                     event_details = (f"BEGIN:VEVENT\r\n"
                                      f"SUMMARY:{fold_line('Late Due Date: ' + assignment['title'])}\r\n"
-                                     f"DTSTAMP:{datetime.now().strftime('%Y%m%dT%H%M%SZ')}\r\n"
-                                     f"DTSTART:{time}\r\n"
+                                     f"DTSTAMP;TZID=EDT:{datetime.now().strftime('%Y%m%dT%H%M%S')}\r\n"
+                                     f"DTSTART;TZID=EDT:{time}\r\n"
                                      f"LOCATION:{fold_line(assignment['course'])}\r\n"
                                      f"URL:{fold_line(assignment['link'])}\r\n"
                                      f"UID:{uid}\r\n"
@@ -88,6 +88,6 @@ def old_cleaner(json_path=os.path.join(DATA_DIR, 'assignments.json'), cutoff=180
         data[course] = [
             assignment for assignment in course_assignments
             if datetime.strptime(assignment['lateDueDate'] if assignment['lateDueDate'] else assignment['dueDate'],
-                                 "%Y%m%dT%H%M%SZ") >= cutoff_date
+                                 "%Y%m%dT%H%M%S") >= cutoff_date
         ]
     save_data("assignments", data)

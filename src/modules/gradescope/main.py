@@ -112,3 +112,16 @@ class Gradescope(Module):
         if anchor is not None:
             link = anchor.get('href')
         return Gradescope.ROOT + link
+
+    @staticmethod
+    def _get_timezone(dashboard):
+        """Returns the Time Zone."""
+
+        # Locate the <abbr> element within the <th> element
+        abbr_element = dashboard.find('abbr')
+
+        # Extract the abbreviation text from the <abbr> element
+        if abbr_element:
+            return abbr_element.get_text()
+        else:
+            return None
