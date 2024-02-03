@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//github.com/jakobz5404/Gradescope-iCal-Integration//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gradescope Assignments
+
+                    BEGIN:VEVENT
+                    SUMMARY:Homework 4
+                    DTSTART;TZID=UTC:20240209T235900Z
+                    DTEND;TZID=UTC:20240209T235900Z
+                    LOCATION:ME 323 - Spring 2024 - Chortos (8:30)
+                    URL:https://www.gradescope.com/courses/695118
+                    END:VEVENT
+                    
+                        BEGIN:VEVENT
+                        SUMMARY:Late Due Dat:Homework 4
+                        DTSTART;TZID=UTC:20240210T235900Z
+                        DTEND;TZID=UTC:20240210T235900Z
+                        LOCATION:ME 323 - Spring 2024 - Chortos (8:30)
+                        URL:https://www.gradescope.com/courses/695118
+                        END:VEVENT
+                        
+                    BEGIN:VEVENT
+                    SUMMARY:Lecture 6 Quiz
+                    DTSTART;TZID=UTC:20240122T235900Z
+                    DTEND;TZID=UTC:20240122T235900Z
+                    LOCATION:ME 323 - Spring 2024 - Chortos (8:30)
+                    URL:https://www.gradescope.com/courses/695118
+                    END:VEVENT
+                    
+                        BEGIN:VEVENT
+                        SUMMARY:Late Due Dat:Lecture 6 Quiz
+                        DTSTART;TZID=UTC:20240123T235900Z
+                        DTEND;TZID=UTC:20240123T235900Z
+                        LOCATION:ME 323 - Spring 2024 - Chortos (8:30)
+                        URL:https://www.gradescope.com/courses/695118
+                        END:VEVENT
+                        
+                    BEGIN:VEVENT
+                    SUMMARY:Lecture 9 Quiz
+                    DTSTART;TZID=UTC:20240129T235900Z
+                    DTEND;TZID=UTC:20240129T235900Z
+                    LOCATION:ME 323 - Spring 2024 - Chortos (8:30)
+                    URL:https://www.gradescope.com/courses/695118
+                    END:VEVENT
+                    
+                        BEGIN:VEVENT
+                        SUMMARY:Late Due Dat:Lecture 9 Quiz
+                        DTSTART;TZID=UTC:20240130T235900Z
+                        DTEND;TZID=UTC:20240130T235900Z
+                        LOCATION:ME 323 - Spring 2024 - Chortos (8:30)
+                        URL:https://www.gradescope.com/courses/695118
+                        END:VEVENT
+                        
+                    BEGIN:VEVENT
+                    SUMMARY:Lab Memo 2: Determination of Poisson's Ratio
+                    DTSTART;TZID=UTC:20240207T235900Z
+                    DTEND;TZID=UTC:20240207T235900Z
+                    LOCATION:ME 32301 Lab Memo
+                    URL:https://www.gradescope.com/courses/703340
+                    END:VEVENT
+                    
+                        BEGIN:VEVENT
+                        SUMMARY:Late Due Dat:Lab Memo 2: Determination of Poisson's Ratio
+                        DTSTART;TZID=UTC:20240208T235900Z
+                        DTEND;TZID=UTC:20240208T235900Z
+                        LOCATION:ME 32301 Lab Memo
+                        URL:https://www.gradescope.com/courses/703340
+                        END:VEVENT
+                        
+                    BEGIN:VEVENT
+                    SUMMARY:HW04
+                    DTSTART;TZID=UTC:20240204T235900Z
+                    DTEND;TZID=UTC:20240204T235900Z
+                    LOCATION:ME308
+                    URL:https://www.gradescope.com/courses/696207
+                    END:VEVENT
+                    
+                    BEGIN:VEVENT
+                    SUMMARY:Homework 3
+                    DTSTART;TZID=UTC:20240214T170000Z
+                    DTEND;TZID=UTC:20240214T170000Z
+                    LOCATION:wl.202420.ME.37500.069
+                    URL:https://www.gradescope.com/courses/698742
+                    END:VEVENT
+                    
+                    BEGIN:VEVENT
+                    SUMMARY:Prelab 2
+                    DTSTART;TZID=UTC:20240205T080000Z
+                    DTEND;TZID=UTC:20240205T080000Z
+                    LOCATION:wl.202420.ME.37500.069
+                    URL:https://www.gradescope.com/courses/698742
+                    END:VEVENT
+                    
+                        BEGIN:VEVENT
+                        SUMMARY:Late Due Dat:Prelab 2
+                        DTSTART;TZID=UTC:20240228T170000Z
+                        DTEND;TZID=UTC:20240228T170000Z
+                        LOCATION:wl.202420.ME.37500.069
+                        URL:https://www.gradescope.com/courses/698742
+                        END:VEVENT
+                        END:VCALENDAR
