@@ -30,10 +30,11 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
         data = json.load(json_file)
     ics_str = """BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//github.com/jakobz5404/Gradescope-iCal-Integration//EN\nCALSCALE:GREGORIAN\n"""
     ics_str += "X-WR-CALNAME:Gradescope Assignments\n"
-
+    uid = 1
     for course, course_assignments in data.items():
         for assignment in course_assignments:
             if not assignment['submitted']:
+                uid = uid + 1
                 if time_offset == 0:
                     time = assignment['dueDate']
                 else:
@@ -45,9 +46,11 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                                  f"DTEND:{time}\n"
                                  f"LOCATION:{assignment['course']}\n"
                                  f"URL:{assignment['link']}\n"
+                                 f"UID:{uid}\n"
                                  f"END:VEVENT\n")
                 ics_str += event_details
                 if assignment['lateDueDate']:
+                    uid = uid + 1
                     if time_offset == 0:
                         time = assignment['lateDueDate']
                     else:
@@ -59,6 +62,7 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                                      f"DTEND:{time}\n"
                                      f"LOCATION:{assignment['course']}\n"
                                      f"URL:{assignment['link']}\n"
+                                     f"UID:{uid}\n"
                                      f"END:VEVENT\n")
                     ics_str += event_details
     ics_str += "END:VCALENDAR\n"
