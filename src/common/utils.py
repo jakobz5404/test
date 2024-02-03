@@ -39,15 +39,14 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                 else:
                     time = datetime.strftime(
                         datetime.strptime(assignment['dueDate']) + timedelta(minutes=int(time_offset * 60)))
-                event_details = f"""
-                    BEGIN:VEVENT
-                    SUMMARY:{assignment['title']}
-                    DTSTART;TZID=UTC:{time}
-                    DTEND;TZID=UTC:{time}
-                    LOCATION:{assignment['course']}
-                    URL:{assignment['link']}
-                    END:VEVENT
-                    """
+                event_details = (f"BEGIN:VEVENT\n"
+                                 f"SUMMARY:{assignment['title']}\n"
+                                 f"DTSTART;TZID=UTC:{time}\n"
+                                 f"DTEND;TZID=UTC:{time}\n"
+                                 f"LOCATION:{assignment['course']}\n"
+                                 f"URL:{assignment['link']}\n"
+                                 f"END:VEVENT\n"
+                                 f"                    ")
                 ics_str += event_details
                 if assignment['lateDueDate']:
                     if time_offset == 0:
@@ -55,15 +54,13 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                     else:
                         time = datetime.strftime(
                             datetime.strptime(assignment['lateDueDate']) + timedelta(minutes=int(time_offset * 60)))
-                    event_details = f"""
-                        BEGIN:VEVENT
-                        SUMMARY:{'Late Due Dat:' + assignment['title']}
-                        DTSTART;TZID=UTC:{time}
-                        DTEND;TZID=UTC:{time}
-                        LOCATION:{assignment['course']}
-                        URL:{assignment['link']}
-                        END:VEVENT
-                        """
+                    event_details = (f"BEGIN:VEVENT\n"
+                                     f"SUMMARY:{'Late Due Date: ' + assignment['title']}\n"
+                                     f"DTSTART;TZID=UTC:{time}\n"
+                                     f"DTEND;TZID=UTC:{time}\n"
+                                     f"LOCATION:{assignment['course']}\n"
+                                     f"URL:{assignment['link']}\n"
+                                     f"END:VEVENT\n")
                     ics_str += event_details
     ics_str += "END:VCALENDAR\n"
     if not os.path.exists(DATA_DIR):
