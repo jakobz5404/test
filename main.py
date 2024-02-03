@@ -22,4 +22,4 @@ with open(os.path.join('.github', 'workflows', 'main.yml'), 'w') as file:
     file.write(workflow)
 '''
 # Save the list to a json file for Planit to import later
-utils.save_data('assignments.json', assignments)
+utils.save_data('assignments', assignments)

@@ -21,6 +21,6 @@ def get_assignment_dict(title, course, due_date, link, submitted):
 def save_data(var_name, obj):
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
-    target = os.path.join(DATA_DIR, var_name + '.js')
+    target = os.path.join(DATA_DIR, var_name + '.json')
     with open(target, 'w') as file:
         file.write(f'{var_name} = {json.dumps(obj, indent=2)};\n')
