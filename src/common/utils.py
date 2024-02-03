@@ -42,8 +42,8 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                         datetime.strptime(assignment['dueDate']) + timedelta(minutes=int(time_offset * 60)))
                 event_details = (f"BEGIN:VEVENT\n"
                                  f"SUMMARY:{assignment['title']}\n"
+                                 f"DTSTAMP:{datetime.now().strftime('%Y%m%dT%H%M%SZ')}\n"
                                  f"DTSTART:{time}\n"
-                                 f"DTEND:{time}\n"
                                  f"LOCATION:{assignment['course']}\n"
                                  f"URL:{assignment['link']}\n"
                                  f"UID:{uid}\n"
@@ -58,8 +58,8 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                             datetime.strptime(assignment['lateDueDate']) + timedelta(minutes=int(time_offset * 60)))
                     event_details = (f"BEGIN:VEVENT\n"
                                      f"SUMMARY:{'Late Due Date: ' + assignment['title']}\n"
+                                     f"DTSTAMP:{datetime.now().strftime('%Y%m%dT%H%M%SZ')}\n"
                                      f"DTSTART:{time}\n"
-                                     f"DTEND:{time}\n"
                                      f"LOCATION:{assignment['course']}\n"
                                      f"URL:{assignment['link']}\n"
                                      f"UID:{uid}\n"
