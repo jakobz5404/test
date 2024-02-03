@@ -47,7 +47,7 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                 if time_offset == 0:
                     time = assignment['dueDate']
                 else:
-                    time = datetime.strftime(datetime.strptime(assignment['dueDate'], '%Y%m%dT%H%M%SZ') + time_offset,
+                    time = datetime.strftime(datetime.strptime(assignment['dueDate'], '%Y%m%dT%H%M%SZ') - time_offset,
                                              '%Y%m%dT%H%M%SZ')
                 event_details = (f"BEGIN:VEVENT\r\n"
                                  f"SUMMARY:{fold_line(assignment['title'])}\r\n"
@@ -64,7 +64,7 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                         time = assignment['lateDueDate']
                     else:
                         time = datetime.strftime(
-                            datetime.strptime(assignment['lateDueDate'], '%Y%m%dT%H%M%SZ') + time_offset,
+                            datetime.strptime(assignment['lateDueDate'], '%Y%m%dT%H%M%SZ') - time_offset,
                             '%Y%m%dT%H%M%SZ')
                     event_details = (f"BEGIN:VEVENT\r\n"
                                      f"SUMMARY:{fold_line('Late Due Date: ' + assignment['title'])}\r\n"
