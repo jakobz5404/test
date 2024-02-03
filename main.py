@@ -4,6 +4,8 @@ from src.modules.interfaces import Module
 from src.modules import *
 
 
+TIMEZONE_OFFSET = 0 # this is the difference between your timezone and the gradescope submission page timezone (i believe gradescope shows what the institution chooses but im not too sure)
+
 # Compile assignments into a list
 assignments = {}
 modules = [
@@ -11,15 +13,13 @@ modules = [
 ]
 for module in modules:
     module.run(assignments)
-'''
-# Update GitHub workflow with all environment variables
-envs = [x + ': ${{ secrets.' + x + ' }}' for x in Module.envs]
-workflow = workflow_template.replace(
-    '__ENV__',
-    ('\n' + ' ' * 8).join(envs)
-)
-with open(os.path.join('.github', 'workflows', 'main.yml'), 'w') as file:
-    file.write(workflow)
-'''
-# Save the list to a json file for Planit to import later
+
+# Save the list to a json file to import later
 utils.save_data('assignments', assignments)
+
+# cleans out anything older that 180 days to prevent huge files
+utils.old_cleaner()
+
+# converts the json to an ical file and saves it
+utils.json_to_ics(time_offset=TIMEZONE_OFFSET)
+
