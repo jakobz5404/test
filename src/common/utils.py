@@ -45,8 +45,7 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                                  f"DTEND:{time}\n"
                                  f"LOCATION:{assignment['course']}\n"
                                  f"URL:{assignment['link']}\n"
-                                 f"END:VEVENT\n"
-                                 f"                    ")
+                                 f"END:VEVENT\n")
                 ics_str += event_details
                 if assignment['lateDueDate']:
                     if time_offset == 0:
