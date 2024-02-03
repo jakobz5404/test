@@ -3,7 +3,7 @@
     {
       "title": "Homework 1",
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
-      "dueDate": "20240119T235900",
+      "dueDate": "20240119T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/695118/assignments/3948791/submissions/223429392",
       "submitted": true
@@ -11,40 +11,40 @@
     {
       "title": "Homework 2",
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
-      "dueDate": "20240126T235900",
-      "lateDueDate": "20240127T235900",
+      "dueDate": "20240126T235900Z",
+      "lateDueDate": "20240127T235900Z",
       "link": "https://www.gradescope.com/courses/695118/assignments/3948793/submissions/225117864",
       "submitted": true
     },
     {
       "title": "Homework 3",
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
-      "dueDate": "20240202T235900",
-      "lateDueDate": "20240203T235900",
+      "dueDate": "20240202T235900Z",
+      "lateDueDate": "20240203T235900Z",
       "link": "https://www.gradescope.com/courses/695118/assignments/3948794/submissions/227160479",
       "submitted": true
     },
     {
       "title": "Homework 4",
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
-      "dueDate": "20240209T235900",
-      "lateDueDate": "20240210T235900",
+      "dueDate": "20240209T235900Z",
+      "lateDueDate": "20240210T235900Z",
       "link": "https://www.gradescope.com/courses/695118",
       "submitted": false
     },
     {
       "title": "Lecture 6 Quiz",
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
-      "dueDate": "20240122T235900",
-      "lateDueDate": "20240123T235900",
+      "dueDate": "20240122T235900Z",
+      "lateDueDate": "20240123T235900Z",
       "link": "https://www.gradescope.com/courses/695118",
       "submitted": false
     },
     {
       "title": "Lecture 9 Quiz",
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
-      "dueDate": "20240129T235900",
-      "lateDueDate": "20240130T235900",
+      "dueDate": "20240129T235900Z",
+      "lateDueDate": "20240130T235900Z",
       "link": "https://www.gradescope.com/courses/695118",
       "submitted": false
     }
@@ -53,7 +53,7 @@
     {
       "title": "ME Building Quiz and 3D Printing Quiz",
       "course": "ME 32301 Lab Lecture Quiz",
-      "dueDate": "20240124T235900",
+      "dueDate": "20240124T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/703339/assignments/3914805/submissions/222899854",
       "submitted": true
@@ -63,16 +63,16 @@
     {
       "title": "Lab Memo 1: Tensile Test To Failure",
       "course": "ME 32301 Lab Memo",
-      "dueDate": "20240131T235900",
-      "lateDueDate": "20240201T235900",
+      "dueDate": "20240131T235900Z",
+      "lateDueDate": "20240201T235900Z",
       "link": "https://www.gradescope.com/courses/703340/assignments/3967279/submissions/226448416",
       "submitted": true
     },
     {
       "title": "Lab Memo 2: Determination of Poisson's Ratio",
       "course": "ME 32301 Lab Memo",
-      "dueDate": "20240207T235900",
-      "lateDueDate": "20240208T235900",
+      "dueDate": "20240207T235900Z",
+      "lateDueDate": "20240208T235900Z",
       "link": "https://www.gradescope.com/courses/703340",
       "submitted": false
     }
@@ -81,7 +81,7 @@
     {
       "title": "HW01",
       "course": "ME308",
-      "dueDate": "20240114T235900",
+      "dueDate": "20240114T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/3890643/submissions/222454168",
       "submitted": true
@@ -89,7 +89,7 @@
     {
       "title": "HW02",
       "course": "ME308",
-      "dueDate": "20240121T235900",
+      "dueDate": "20240121T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/3936287/submissions/223650548",
       "submitted": true
@@ -97,7 +97,7 @@
     {
       "title": "HW03",
       "course": "ME308",
-      "dueDate": "20240128T235900",
+      "dueDate": "20240128T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/3979332/submissions/225424610",
       "submitted": true
@@ -105,7 +105,7 @@
     {
       "title": "HW04",
       "course": "ME308",
-      "dueDate": "20240204T235900",
+      "dueDate": "20240204T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207",
       "submitted": false
@@ -115,7 +115,7 @@
     {
       "title": "Homework 1",
       "course": "wl.202420.ME.37500.069",
-      "dueDate": "20240117T170000",
+      "dueDate": "20240117T170000Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742/assignments/3884828/submissions/222898274",
       "submitted": true
@@ -123,7 +123,7 @@
     {
       "title": "Homework 2",
       "course": "wl.202420.ME.37500.069",
-      "dueDate": "20240131T170000",
+      "dueDate": "20240131T170000Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742/assignments/3892334/submissions/226290981",
       "submitted": true
@@ -131,7 +131,7 @@
     {
       "title": "Homework 3",
       "course": "wl.202420.ME.37500.069",
-      "dueDate": "20240214T170000",
+      "dueDate": "20240214T170000Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742",
       "submitted": false
@@ -139,24 +139,24 @@
     {
       "title": "Prelab 1",
       "course": "wl.202420.ME.37500.069",
-      "dueDate": "20240122T080000",
-      "lateDueDate": "20240228T170000",
+      "dueDate": "20240122T080000Z",
+      "lateDueDate": "20240228T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/3925391/submissions/223708922",
       "submitted": true
     },
     {
       "title": "Lab 1",
       "course": "wl.202420.ME.37500.069",
-      "dueDate": "20240207T170000",
-      "lateDueDate": "20240228T170000",
+      "dueDate": "20240207T170000Z",
+      "lateDueDate": "20240228T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/3972043/submissions/223822608",
       "submitted": true
     },
     {
       "title": "Prelab 2",
       "course": "wl.202420.ME.37500.069",
-      "dueDate": "20240205T080000",
-      "lateDueDate": "20240228T170000",
+      "dueDate": "20240205T080000Z",
+      "lateDueDate": "20240228T170000Z",
       "link": "https://www.gradescope.com/courses/698742",
       "submitted": false
     }
