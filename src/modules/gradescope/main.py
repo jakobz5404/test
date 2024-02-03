@@ -1,7 +1,6 @@
 from src.common import utils
 from src.modules.interfaces import Module
 
-
 class Gradescope(Module):
     ROOT = 'https://www.gradescope.com'
 
@@ -55,7 +54,7 @@ class Gradescope(Module):
             assignment_table = course_dashboard.find('tbody')
             for row in assignment_table.find_all('tr', {'role': 'row'}):
                 dates = Gradescope._get_assignment_due_date(row)
-                if dates:         # Only add assignment if it has a due date
+                if dates:  # Only add assignment if it has a due date
                     title = Gradescope._get_assignment_title(row)
                     status = Gradescope._get_assignment_status(row)
                     link = Gradescope._get_assignment_link(row, course_link)
@@ -91,7 +90,6 @@ class Gradescope(Module):
 
         due_date = row.find_all('time', {'class': 'submissionTimeChart--dueDate'})
         return [date.text for date in due_date]
-
 
     @staticmethod
     def _get_assignment_status(row):
