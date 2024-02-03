@@ -54,12 +54,14 @@ class Gradescope(Module):
             course_dashboard = Module.parse_html(course_dashboard_res.text)
             assignment_table = course_dashboard.find('tbody')
             for row in assignment_table.find_all('tr', {'role': 'row'}):
-                date_string = Gradescope._get_assignment_due_date(row)
-                if date_string is not None:         # Only add assignment if it has a due date
+                dates = Gradescope._get_assignment_due_date(row)
+                if dates:         # Only add assignment if it has a due date
                     title = Gradescope._get_assignment_title(row)
                     status = Gradescope._get_assignment_status(row)
                     link = Gradescope._get_assignment_link(row, course_link)
                     submitted = (status != 'No Submission')
+                    date_string = dates[0]
+                    late_date_str = dates[1] if len(dates) == 2 else None
 
                     # Add to assignments list
                     assignments[course_name].append(utils.get_assignment_dict(
@@ -67,7 +69,8 @@ class Gradescope(Module):
                         course_name,
                         date_string,
                         link,
-                        submitted
+                        submitted,
+                        late_date_str
                     ))
 
     @staticmethod
@@ -86,11 +89,9 @@ class Gradescope(Module):
     def _get_assignment_due_date(row):
         """Returns the title of an assignment given its row in the table."""
 
-        due_date = row.find('time', {'class': 'submissionTimeChart--dueDate'})
-        if due_date is not None:
-            return due_date.text
-        else:
-            return None
+        due_date = row.find_all('time', {'class': 'submissionTimeChart--dueDate'})
+        return [date.text for date in due_date]
+
 
     @staticmethod
     def _get_assignment_status(row):

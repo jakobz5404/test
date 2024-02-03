@@ -1,4 +1,4 @@
-## Gradescope Google Calendar Integration
+## Gradescope iCalendar Integration
 
 All credit goes to [@tanjeffreyz](https://github.com/tanjeffreyz) for developing the web scraping service and most of the README. 
 Because some online homework platforms such as Gradescope don't have an API for students (boo👎), web scraping is required to retrieve 
@@ -8,7 +8,7 @@ which is automatically executed every 6 hours (starting at 12am EST) using **Git
 
 ## One-time Setup Instructions
 1. Log into GitHub or <a href="https://github.com/join"><b>create a new GitHub account</b></a> if you don't have one.
-
+## UNFINISHED
 2. Click <a href="#"><img src="docs/use_this_template.PNG" height="80px" style="vertical-align: text-top;"/></a> at the top of this page, 
 which should open the following prompt.
 <div align="center">
@@ -24,7 +24,7 @@ https://github.com/YOUR_USERNAME/REPOSITORY_NAME/settings/secrets/actions
 ```
 
 
-## UNFINISHED
+
 
 
 5. For each homework platform you use, create **two** new 

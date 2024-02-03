@@ -6,11 +6,12 @@ import dateparser
 DATA_DIR = 'data'
 
 
-def get_assignment_dict(title, course, due_date, link, submitted):
+def get_assignment_dict(title, course, due_date, link, submitted, late_due_date=None):
     return {
         'title': title,
         'course': course,
         'dueDate': dateparser.parse(due_date).isoformat(),
+        'lateDueDate': late_due_date,
         'link': link,
         'submitted': submitted
     }
