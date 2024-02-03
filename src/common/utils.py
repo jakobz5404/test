@@ -33,8 +33,8 @@ def fold_line(line, limit=75):
 def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json')):
     with open(json_path, 'r') as json_file:
         data = json.load(json_file)
-    ics_str = """BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//github.com/jakobz5404/Gradescope-iCal-Integration//EN\nCALSCALE:GREGORIAN\n"""
-    ics_str += "X-WR-CALNAME:Gradescope Assignments\n"
+    ics_str = """BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//github.com/jakobz5404/Gradescope-iCal-Integration//EN\r\nCALSCALE:GREGORIAN\r\n"""
+    ics_str += "X-WR-CALNAME:Gradescope Assignments\r\n"
     uid = 1
     for course, course_assignments in data.items():
         for assignment in course_assignments:
@@ -70,7 +70,7 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
                                      f"UID:{uid}\r\n"
                                      f"END:VEVENT\r\n")
                     ics_str += event_details
-    ics_str += "END:VCALENDAR\n"
+    ics_str += "END:VCALENDAR\r\n"
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
     target = os.path.join(DATA_DIR, 'assignments.ics')
