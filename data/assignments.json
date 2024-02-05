@@ -47,6 +47,14 @@
       "lateDueDate": "20240130T235900Z",
       "link": "https://www.gradescope.com/courses/695118",
       "submitted": false
+    },
+    {
+      "title": "Lecture 12 Quiz",
+      "course": "ME 323 - Spring 2024 - Chortos (8:30)",
+      "dueDate": "20240205T235900Z",
+      "lateDueDate": "20240206T235900Z",
+      "link": "https://www.gradescope.com/courses/695118",
+      "submitted": false
     }
   ],
   "ME 32301 Lab Lecture Quiz": [
@@ -73,6 +81,14 @@
       "course": "ME 32301 Lab Memo",
       "dueDate": "20240207T235900Z",
       "lateDueDate": "20240208T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
+    },
+    {
+      "title": "Lab Memo 3: CAD and 3D-Printing of Standard Dogbone ",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240214T235900Z",
+      "lateDueDate": "20240215T235900Z",
       "link": "https://www.gradescope.com/courses/703340",
       "submitted": false
     }
@@ -109,6 +125,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/4014954/submissions/227575657",
       "submitted": true
+    },
+    {
+      "title": "HW05",
+      "course": "ME308",
+      "dueDate": "20240211T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/696207",
+      "submitted": false
     }
   ],
   "wl.202420.ME.37500.069": [
@@ -156,6 +180,14 @@
       "title": "Prelab 2",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240205T080000Z",
+      "lateDueDate": "20240228T170000Z",
+      "link": "https://www.gradescope.com/courses/698742",
+      "submitted": false
+    },
+    {
+      "title": "Lab 2",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240221T170000Z",
       "lateDueDate": "20240228T170000Z",
       "link": "https://www.gradescope.com/courses/698742",
       "submitted": false
