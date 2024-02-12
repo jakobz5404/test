@@ -63,6 +63,14 @@
       "lateDueDate": "20240206T235900Z",
       "link": "https://www.gradescope.com/courses/695118/assignments/4054354/submissions/228282941",
       "submitted": true
+    },
+    {
+      "title": "Lecture 15 Quiz",
+      "course": "ME 323 - Spring 2024 - Chortos (8:30)",
+      "dueDate": "20240212T235900Z",
+      "lateDueDate": "20240213T235900Z",
+      "link": "https://www.gradescope.com/courses/695118",
+      "submitted": false
     }
   ],
   "ME 32301 Lab Lecture Quiz": [
@@ -97,6 +105,14 @@
       "course": "ME 32301 Lab Memo",
       "dueDate": "20240214T235900Z",
       "lateDueDate": "20240215T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
+    },
+    {
+      "title": "Lab Memo 4: Torsion of Circular Shafts ",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240221T235900Z",
+      "lateDueDate": "20240222T235900Z",
       "link": "https://www.gradescope.com/courses/703340",
       "submitted": false
     }
@@ -199,6 +215,14 @@
       "lateDueDate": "20240228T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4047178/submissions/227767173",
       "submitted": true
+    },
+    {
+      "title": "Prelab 3",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240219T080000Z",
+      "lateDueDate": "20240417T170000Z",
+      "link": "https://www.gradescope.com/courses/698742",
+      "submitted": false
     }
   ]
 }
