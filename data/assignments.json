@@ -173,6 +173,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/4054430/submissions/229689623",
       "submitted": true
+    },
+    {
+      "title": "HW07",
+      "course": "ME308",
+      "dueDate": "20240225T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/696207",
+      "submitted": false
     }
   ],
   "wl.202420.ME.37500.069": [
@@ -245,8 +253,8 @@
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240306T170000Z",
       "lateDueDate": "20240417T170000Z",
-      "link": "https://www.gradescope.com/courses/698742",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/698742/assignments/4122754/submissions/232217954",
+      "submitted": true
     }
   ]
 }
