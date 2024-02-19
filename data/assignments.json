@@ -123,6 +123,14 @@
       "lateDueDate": "20240222T235900Z",
       "link": "https://www.gradescope.com/courses/703340/assignments/4084375/submissions/231903265",
       "submitted": true
+    },
+    {
+      "title": "Lab Memo 5: Strain Gauge Rosettes and Stresses in Beams",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240228T235900Z",
+      "lateDueDate": "20240229T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
     }
   ],
   "ME308": [
@@ -228,6 +236,14 @@
       "title": "Prelab 3",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240219T080000Z",
+      "lateDueDate": "20240417T170000Z",
+      "link": "https://www.gradescope.com/courses/698742",
+      "submitted": false
+    },
+    {
+      "title": "Lab 3",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240306T170000Z",
       "lateDueDate": "20240417T170000Z",
       "link": "https://www.gradescope.com/courses/698742",
       "submitted": false
