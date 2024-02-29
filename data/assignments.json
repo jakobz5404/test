@@ -305,6 +305,14 @@
       "lateDueDate": "20240417T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4156800/submissions/234903894",
       "submitted": true
+    },
+    {
+      "title": "Exam 1 rework assignment",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240306T170000Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/698742/assignments/4168599/submissions/new",
+      "submitted": false
     }
   ]
 }
