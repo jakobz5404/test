@@ -81,7 +81,16 @@
       "submitted": true
     }
   ],
-  "ME 323 - Spring 2024 - Exams": [],
+  "ME 323 - Spring 2024 - Exams": [
+    {
+      "title": "Exam 1",
+      "course": "ME 323 - Spring 2024 - Exams",
+      "dueDate": "20240228T223100Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/712120/assignments/4172788/submissions/235172569",
+      "submitted": true
+    }
+  ],
   "ME 32301 Lab Lecture Quiz": [
     {
       "title": "ME Building Quiz and 3D Printing Quiz",
@@ -130,8 +139,8 @@
       "course": "ME 32301 Lab Memo",
       "dueDate": "20240228T235900Z",
       "lateDueDate": "20240229T235900Z",
-      "link": "https://www.gradescope.com/courses/703340",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/703340/assignments/4121915/submissions/235191735",
+      "submitted": true
     },
     {
       "title": "Lab Memo 6: Three Point Bending",
