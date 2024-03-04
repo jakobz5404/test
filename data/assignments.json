@@ -157,6 +157,14 @@
       "lateDueDate": "20240307T235900Z",
       "link": "https://www.gradescope.com/courses/703340",
       "submitted": false
+    },
+    {
+      "title": "Lab Memo 7: Comparison of Euler-Bernoulli and Timoshenko Beam Theories",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240320T235900Z",
+      "lateDueDate": "20240321T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
     }
   ],
   "ME308": [
@@ -223,6 +231,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/4160639/submissions/236238692",
       "submitted": true
+    },
+    {
+      "title": "HW09",
+      "course": "ME308",
+      "dueDate": "20240310T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/696207",
+      "submitted": false
     }
   ],
   "wl.202420.ME.37500.069": [
@@ -320,6 +336,14 @@
       "dueDate": "20240306T170000Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742/assignments/4168599/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Lab 4",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240320T170000Z",
+      "lateDueDate": "20240417T170000Z",
+      "link": "https://www.gradescope.com/courses/698742",
       "submitted": false
     }
   ]
