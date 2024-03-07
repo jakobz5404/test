@@ -93,8 +93,8 @@
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
       "dueDate": "20240306T235900Z",
       "lateDueDate": "20240307T235900Z",
-      "link": "https://www.gradescope.com/courses/695118",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/695118/assignments/4200834/submissions/237169646",
+      "submitted": true
     }
   ],
   "ME 323 - Spring 2024 - Exams": [
@@ -163,8 +163,8 @@
       "course": "ME 32301 Lab Memo",
       "dueDate": "20240306T235900Z",
       "lateDueDate": "20240307T235900Z",
-      "link": "https://www.gradescope.com/courses/703340",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/703340/assignments/4155108/submissions/237223649",
+      "submitted": true
     },
     {
       "title": "Lab Memo 7: Comparison of Euler-Bernoulli and Timoshenko Beam Theories",
