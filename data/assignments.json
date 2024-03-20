@@ -181,6 +181,14 @@
       "lateDueDate": "20240321T235900Z",
       "link": "https://www.gradescope.com/courses/703340",
       "submitted": false
+    },
+    {
+      "title": "Lab Memo 8: Axial Loading of 3D-Printed Dogbone",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240327T235900Z",
+      "lateDueDate": "20240328T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
     }
   ],
   "ME308": [
@@ -375,6 +383,14 @@
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240320T170000Z",
       "lateDueDate": "20240327T170000Z",
+      "link": "https://www.gradescope.com/courses/698742",
+      "submitted": false
+    },
+    {
+      "title": "Homework 6",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240403T170000Z",
+      "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742",
       "submitted": false
     },
