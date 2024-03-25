@@ -205,6 +205,14 @@
       "lateDueDate": "20240328T235900Z",
       "link": "https://www.gradescope.com/courses/703340",
       "submitted": false
+    },
+    {
+      "title": "Lab Memo 9: Uniaxial Tension in a Finite-Width Panel with a Circular Hole",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240403T235900Z",
+      "lateDueDate": "20240404T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
     }
   ],
   "ME308": [
@@ -431,8 +439,8 @@
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240410T170000Z",
       "lateDueDate": "20240417T170000Z",
-      "link": "https://www.gradescope.com/courses/698742",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/698742/assignments/4271826/submissions/241746009",
+      "submitted": true
     }
   ]
 }
