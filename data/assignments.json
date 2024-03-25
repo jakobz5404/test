@@ -111,6 +111,14 @@
       "lateDueDate": "20240307T235900Z",
       "link": "https://www.gradescope.com/courses/695118/assignments/4200834/submissions/237169646",
       "submitted": true
+    },
+    {
+      "title": "Lecture 29 Quiz",
+      "course": "ME 323 - Spring 2024 - Chortos (8:30)",
+      "dueDate": "20240325T235900Z",
+      "lateDueDate": "20240326T235900Z",
+      "link": "https://www.gradescope.com/courses/695118",
+      "submitted": false
     }
   ],
   "ME 323 - Spring 2024 - Exams": [
@@ -416,6 +424,14 @@
       "dueDate": "20240327T170000Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742/assignments/4258070/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Lab 5",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240410T170000Z",
+      "lateDueDate": "20240417T170000Z",
+      "link": "https://www.gradescope.com/courses/698742",
       "submitted": false
     }
   ]
