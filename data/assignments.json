@@ -211,8 +211,8 @@
       "course": "ME 32301 Lab Memo",
       "dueDate": "20240403T235900Z",
       "lateDueDate": "20240404T235900Z",
-      "link": "https://www.gradescope.com/courses/703340",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/703340/assignments/4274355/submissions/243560933",
+      "submitted": true
     }
   ],
   "ME308": [
@@ -295,6 +295,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/4244603/submissions/241576022",
       "submitted": true
+    },
+    {
+      "title": "HW12",
+      "course": "ME308",
+      "dueDate": "20240407T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/696207",
+      "submitted": false
     }
   ],
   "wl.202420.ME.37500.069": [
@@ -415,8 +423,8 @@
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240403T170000Z",
       "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/698742",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/698742/assignments/4217522/submissions/243586318",
+      "submitted": true
     },
     {
       "title": "Prelab 5",
