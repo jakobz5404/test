@@ -129,6 +129,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/712120/assignments/4172788/submissions/235172569",
       "submitted": true
+    },
+    {
+      "title": "Exam 2",
+      "course": "ME 323 - Spring 2024 - Exams",
+      "dueDate": "20240403T223100Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/712120",
+      "submitted": false
     }
   ],
   "ME 32301 Lab Lecture Quiz": [
