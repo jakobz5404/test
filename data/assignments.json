@@ -229,6 +229,14 @@
       "lateDueDate": "20240404T235900Z",
       "link": "https://www.gradescope.com/courses/703340/assignments/4274355/submissions/243560933",
       "submitted": true
+    },
+    {
+      "title": "Lab Memo 10: Helical Extension Springs",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240410T235900Z",
+      "lateDueDate": "20240411T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
     }
   ],
   "ME308": [
