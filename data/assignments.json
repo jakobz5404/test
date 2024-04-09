@@ -237,6 +237,14 @@
       "lateDueDate": "20240411T235900Z",
       "link": "https://www.gradescope.com/courses/703340",
       "submitted": false
+    },
+    {
+      "title": "Lab Memo 11: FEA and Design of 3D-Printed Parts",
+      "course": "ME 32301 Lab Memo",
+      "dueDate": "20240417T235900Z",
+      "lateDueDate": "20240418T235900Z",
+      "link": "https://www.gradescope.com/courses/703340",
+      "submitted": false
     }
   ],
   "ME308": [
@@ -327,6 +335,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/696207/assignments/4309367/submissions/244768707",
       "submitted": true
+    },
+    {
+      "title": "HW13",
+      "course": "ME308",
+      "dueDate": "20240414T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/696207",
+      "submitted": false
     }
   ],
   "wl.202420.ME.37500.069": [
