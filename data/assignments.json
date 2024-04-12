@@ -77,8 +77,8 @@
       "course": "ME 323 - Spring 2024 - Chortos (8:30)",
       "dueDate": "20240412T235900Z",
       "lateDueDate": "20240413T235900Z",
-      "link": "https://www.gradescope.com/courses/695118",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/695118/assignments/3948805/submissions/246078275",
+      "submitted": true
     },
     {
       "title": "Lecture 6 Quiz",
@@ -497,6 +497,14 @@
       "lateDueDate": "20240417T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4271826/submissions/241746009",
       "submitted": true
+    },
+    {
+      "title": "Homework 7",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240417T170000Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/698742",
+      "submitted": false
     }
   ]
 }
