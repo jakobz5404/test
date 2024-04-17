@@ -267,8 +267,8 @@
       "course": "ME 32301 Lab Memo",
       "dueDate": "20240417T235900Z",
       "lateDueDate": "20240418T235900Z",
-      "link": "https://www.gradescope.com/courses/703340",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/703340/assignments/4337776/submissions/247606667",
+      "submitted": true
     }
   ],
   "ME308": [
@@ -495,8 +495,8 @@
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240325T080000Z",
       "lateDueDate": "20240417T170000Z",
-      "link": "https://www.gradescope.com/courses/698742",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/698742/assignments/4243335/submissions/247593991",
+      "submitted": true
     },
     {
       "title": "Exam 2 rework assignment",
@@ -519,8 +519,8 @@
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240417T170000Z",
       "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/698742",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/698742/assignments/4352382/submissions/247583424",
+      "submitted": true
     }
   ]
 }
