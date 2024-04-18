@@ -521,6 +521,22 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742/assignments/4352382/submissions/247583424",
       "submitted": true
+    },
+    {
+      "title": "Course Evaluation",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240428T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/698742/assignments/4379331/submissions/new",
+      "submitted": false
+    },
+    {
+      "title": "Final Project Report",
+      "course": "wl.202420.ME.37500.069",
+      "dueDate": "20240421T235900Z",
+      "lateDueDate": "20240430T170000Z",
+      "link": "https://www.gradescope.com/courses/698742",
+      "submitted": false
     }
   ]
 }
