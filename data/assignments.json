@@ -365,8 +365,8 @@
       "course": "ME308",
       "dueDate": "20240421T235900Z",
       "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/696207",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/696207/assignments/4362706/submissions/248707178",
+      "submitted": true
     }
   ],
   "wl.202420.ME.37500.069": [
@@ -535,8 +535,8 @@
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240421T235900Z",
       "lateDueDate": "20240430T170000Z",
-      "link": "https://www.gradescope.com/courses/698742",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/698742/assignments/4380208/submissions/248780649",
+      "submitted": true
     }
   ]
 }
