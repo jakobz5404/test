@@ -169,6 +169,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/712120/assignments/4303199/submissions/243920507",
       "submitted": true
+    },
+    {
+      "title": "Final Exam",
+      "course": "ME 323 - Spring 2024 - Exams",
+      "dueDate": "20240502T213100Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/712120",
+      "submitted": false
     }
   ],
   "ME 32301 Lab Lecture Quiz": [
@@ -398,7 +406,7 @@
       "title": "Prelab 1",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240122T080000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/3925391/submissions/223708922",
       "submitted": true
     },
@@ -406,7 +414,7 @@
       "title": "Lab 1",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240207T170000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/3972043/submissions/223822608",
       "submitted": true
     },
@@ -414,7 +422,7 @@
       "title": "Prelab 2",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240205T080000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4015695/submissions/234898979",
       "submitted": true
     },
@@ -422,7 +430,7 @@
       "title": "Lab 2",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240221T170000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4047178/submissions/227767173",
       "submitted": true
     },
@@ -430,7 +438,7 @@
       "title": "Prelab 3",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240219T080000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4089441/submissions/236226720",
       "submitted": true
     },
@@ -438,7 +446,7 @@
       "title": "Lab 3",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240306T170000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4122754/submissions/232217954",
       "submitted": true
     },
@@ -454,7 +462,7 @@
       "title": "Prelab 4",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240304T080000Z",
-      "lateDueDate": "20240424T235900Z",
+      "lateDueDate": "20240506T235900Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4156800/submissions/251219628",
       "submitted": true
     },
@@ -470,7 +478,7 @@
       "title": "Lab 4",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240327T170000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4190912/submissions/236452969",
       "submitted": true
     },
@@ -494,7 +502,7 @@
       "title": "Prelab 5",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240325T080000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4243335/submissions/247593991",
       "submitted": true
     },
@@ -510,7 +518,7 @@
       "title": "Lab 5",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240410T170000Z",
-      "lateDueDate": "20240424T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4271826/submissions/241746009",
       "submitted": true
     },
@@ -534,14 +542,14 @@
       "title": "Final Project Report",
       "course": "wl.202420.ME.37500.069",
       "dueDate": "20240421T235900Z",
-      "lateDueDate": "20240430T170000Z",
+      "lateDueDate": "20240506T170000Z",
       "link": "https://www.gradescope.com/courses/698742/assignments/4380208/submissions/248780649",
       "submitted": true
     },
     {
       "title": "Final Project Code Submission",
       "course": "wl.202420.ME.37500.069",
-      "dueDate": "20240430T170000Z",
+      "dueDate": "20240506T170000Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/698742/assignments/4394144/submissions/251158277",
       "submitted": true
