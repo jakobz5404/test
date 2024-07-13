@@ -281,14 +281,6 @@
   ],
   "ME308": [
     {
-      "title": "HW01",
-      "course": "ME308",
-      "dueDate": "20240114T235900Z",
-      "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/696207/assignments/3890643/submissions/222454168",
-      "submitted": true
-    },
-    {
       "title": "HW02",
       "course": "ME308",
       "dueDate": "20240121T235900Z",
