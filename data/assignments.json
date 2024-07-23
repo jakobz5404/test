@@ -163,16 +163,7 @@
       "submitted": true
     }
   ],
-  "ME 32301 Lab Lecture Quiz": [
-    {
-      "title": "ME Building Quiz and 3D Printing Quiz",
-      "course": "ME 32301 Lab Lecture Quiz",
-      "dueDate": "20240124T235900Z",
-      "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/703339/assignments/3914805/submissions/222899854",
-      "submitted": true
-    }
-  ],
+  "ME 32301 Lab Lecture Quiz": [],
   "ME 32301 Lab Memo": [
     {
       "title": "Lab Memo 1: Tensile Test To Failure",
