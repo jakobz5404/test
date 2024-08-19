@@ -1,5 +1,15 @@
 {
   "ME 315 Lecture Div.1 (Only Quizzes)": [],
   "ME 354 - Fall 2024": [],
-  "ME315 (Lecture)": []
+  "ME30801": [],
+  "ME315 (Lecture)": [
+    {
+      "title": "Homework 1",
+      "course": "ME315 (Lecture)",
+      "dueDate": "20240828T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/814076",
+      "submitted": false
+    }
+  ]
 }
