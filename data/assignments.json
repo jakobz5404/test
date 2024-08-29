@@ -8,6 +8,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/811271",
       "submitted": false
+    },
+    {
+      "title": "Homework 2",
+      "course": "ME 354 - Fall 2024",
+      "dueDate": "20240905T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/811271",
+      "submitted": false
     }
   ],
   "ME30801": [],
@@ -17,8 +25,8 @@
       "course": "ME315 (Lecture)",
       "dueDate": "20240828T235900Z",
       "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/814076",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/814076/assignments/4733389/submissions/263064544",
+      "submitted": true
     },
     {
       "title": "Homework 2",
