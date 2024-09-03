@@ -69,6 +69,14 @@
       "lateDueDate": "20240912T235900Z",
       "link": "https://www.gradescope.com/courses/839557",
       "submitted": false
+    },
+    {
+      "title": "Prelab-2",
+      "course": "ME315Lab - Div 043",
+      "dueDate": "20240909T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/839557",
+      "submitted": false
     }
   ]
 }
