@@ -32,6 +32,14 @@
       "course": "ME30801",
       "dueDate": "20240906T235900Z",
       "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/827568/assignments/4819777/submissions/265131807",
+      "submitted": true
+    },
+    {
+      "title": "Lab 2 Report",
+      "course": "ME30801",
+      "dueDate": "20240913T235900Z",
+      "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/827568",
       "submitted": false
     }
