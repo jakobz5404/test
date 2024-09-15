@@ -50,6 +50,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/827568/assignments/4906106/submissions/267334391",
       "submitted": true
+    },
+    {
+      "title": "Lab 3 Report",
+      "course": "ME30801",
+      "dueDate": "20240920T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/827568",
+      "submitted": false
     }
   ],
   "ME315 (Lecture)": [
