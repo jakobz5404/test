@@ -66,6 +66,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/827568/assignments/4958219/submissions/269857739",
       "submitted": true
+    },
+    {
+      "title": "Lab 4",
+      "course": "ME30801",
+      "dueDate": "20240927T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/827568",
+      "submitted": false
     }
   ],
   "ME315 (Lecture)": [
