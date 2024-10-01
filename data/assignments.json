@@ -68,12 +68,28 @@
       "submitted": true
     },
     {
-      "title": "Lab 4",
+      "title": "Lab 4 Report",
       "course": "ME30801",
       "dueDate": "20240927T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/827568/assignments/5013097/submissions/272329181",
       "submitted": true
+    },
+    {
+      "title": "Open Lab Project Draft Proposal",
+      "course": "ME30801",
+      "dueDate": "20241004T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/827568",
+      "submitted": false
+    },
+    {
+      "title": "Lab 5 Report",
+      "course": "ME30801",
+      "dueDate": "20241018T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/827568",
+      "submitted": false
     }
   ],
   "ME315 (Lecture)": [
