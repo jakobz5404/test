@@ -138,16 +138,16 @@
       "course": "ME315 (Lecture)",
       "dueDate": "20241009T235900Z",
       "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/814076",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/814076/assignments/5066674/submissions/276270137",
+      "submitted": true
     },
     {
       "title": "Homework 7",
       "course": "ME315 (Lecture)",
       "dueDate": "20241016T235900Z",
       "lateDueDate": null,
-      "link": "https://www.gradescope.com/courses/814076",
-      "submitted": false
+      "link": "https://www.gradescope.com/courses/814076/assignments/5112226/submissions/276270848",
+      "submitted": true
     }
   ],
   "ME315Lab - Div 043": [
@@ -214,6 +214,14 @@
       "lateDueDate": "20241008T235900Z",
       "link": "https://www.gradescope.com/courses/839557/assignments/5014728/submissions/274289390",
       "submitted": true
+    },
+    {
+      "title": "Prelab-4",
+      "course": "ME315Lab - Div 043",
+      "dueDate": "20241014T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/839557",
+      "submitted": false
     }
   ]
 }
