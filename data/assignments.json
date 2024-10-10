@@ -40,6 +40,22 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/811271/assignments/5016562/submissions/272151841",
       "submitted": true
+    },
+    {
+      "title": "Project: instructor meeting",
+      "course": "ME 354 - Fall 2024",
+      "dueDate": "20241115T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/811271",
+      "submitted": false
+    },
+    {
+      "title": "Project: video submission",
+      "course": "ME 354 - Fall 2024",
+      "dueDate": "20241126T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/811271/assignments/5139781/submissions/new",
+      "submitted": false
     }
   ],
   "ME30801": [
