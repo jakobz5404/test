@@ -254,6 +254,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/839557",
       "submitted": false
+    },
+    {
+      "title": "Midterm peer evaluation",
+      "course": "ME315Lab - Div 043",
+      "dueDate": "20241023T235900Z",
+      "lateDueDate": "20241023T235900Z",
+      "link": "https://www.gradescope.com/courses/839557",
+      "submitted": false
     }
   ]
 }
