@@ -172,6 +172,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/814076/assignments/5112226/submissions/276270848",
       "submitted": true
+    },
+    {
+      "title": "Homework 8",
+      "course": "ME315 (Lecture)",
+      "dueDate": "20241023T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/814076",
+      "submitted": false
     }
   ],
   "ME315Lab - Div 043": [
