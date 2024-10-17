@@ -262,6 +262,14 @@
       "lateDueDate": "20241023T235900Z",
       "link": "https://www.gradescope.com/courses/839557",
       "submitted": false
+    },
+    {
+      "title": "Lab-4 report",
+      "course": "ME315Lab - Div 043",
+      "dueDate": "20241025T235900Z",
+      "lateDueDate": "20241103T235900Z",
+      "link": "https://www.gradescope.com/courses/839557",
+      "submitted": false
     }
   ]
 }
