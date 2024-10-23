@@ -198,7 +198,7 @@
       "submitted": false
     },
     {
-      "title": "Homework 9",
+      "title": "Homework 9 (Not Collected/Graded)",
       "course": "ME315 (Lecture)",
       "dueDate": "20241030T235900Z",
       "lateDueDate": null,
@@ -292,6 +292,14 @@
       "course": "ME315Lab - Div 043",
       "dueDate": "20241025T235900Z",
       "lateDueDate": "20241103T235900Z",
+      "link": "https://www.gradescope.com/courses/839557",
+      "submitted": false
+    },
+    {
+      "title": "Midterm presentation",
+      "course": "ME315Lab - Div 043",
+      "dueDate": "20241023T235900Z",
+      "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/839557",
       "submitted": false
     }
