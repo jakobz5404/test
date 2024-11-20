@@ -358,6 +358,22 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/839557/assignments/5207375/submissions/281141701",
       "submitted": true
+    },
+    {
+      "title": "Final project report",
+      "course": "ME315Lab - Div 043",
+      "dueDate": "20241121T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/839557",
+      "submitted": false
+    },
+    {
+      "title": "Final presentation",
+      "course": "ME315Lab - Div 043",
+      "dueDate": "20241120T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/839557",
+      "submitted": false
     }
   ]
 }
