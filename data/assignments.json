@@ -1,5 +1,14 @@
 {
-  "ME 315 Lecture Div.1 (Only Quizzes)": [],
+  "ME 315 Lecture Div.1 (Only Quizzes)": [
+    {
+      "title": "Quiz Bonus - Please complete course evaluation for ME 315 lecture (ME.31500.001) and submit any screenshot of completion here for 100% - More info: https://www.purdue.edu/idp/courseevaluations/CE_Students.html",
+      "course": "ME 315 Lecture Div.1 (Only Quizzes)",
+      "dueDate": "20241209T003000Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/823260",
+      "submitted": false
+    }
+  ],
   "ME 354 - Fall 2024": [
     {
       "title": "Homework 1",
