@@ -96,6 +96,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/811271/assignments/5340222/submissions/291982722",
       "submitted": true
+    },
+    {
+      "title": "Quiz 9 (Hess): Nov 25",
+      "course": "ME 354 - Fall 2024",
+      "dueDate": "20241125T121200Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/811271",
+      "submitted": false
     }
   ],
   "ME30801": [
